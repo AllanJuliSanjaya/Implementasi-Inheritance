@@ -72,18 +72,18 @@ public:
 };
 
 int main() {
-    Persegi persegi(5);
+    Persegi persegi(7);
     cout << "Luas Persegi: " << persegi.hitungLuas() << endl;
     cout << "Keliling Persegi: " << persegi.hitungKeliling() << endl;
 
-    PersegiPanjang persegiPanjang(4, 6);
+    PersegiPanjang persegiPanjang(3, 8);
     cout << "Luas Persegi Panjang: " << persegiPanjang.hitungLuas() << endl;
     cout << "Keliling Persegi Panjang: " << persegiPanjang.hitungKeliling() << endl;
 
     Segitiga segitiga(3, 4);
     cout << "Luas Segitiga: " << segitiga.hitungLuas() << endl;
 
-    Lingkaran lingkaran(7);
+    Lingkaran lingkaran(14);
     cout << "Luas Lingkaran: " << lingkaran.hitungLuas() << endl;
     cout << "Keliling Lingkaran: " << lingkaran.hitungKeliling() << endl;
 
